@@ -123,7 +123,6 @@ BOARD_MKBOOTIMG_ARGS := --kernel_offset $(BOARD_KERNEL_OFFSET) --ramdisk_offset 
 BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOT_HEADER_VERSION)
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true
 TARGET_KERNEL_ADDITIONAL_FLAGS := DTC=$(shell pwd)/prebuilts/misc/$(HOST_OS)-x86/dtc/dtc 
-TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_NO_GCC := true
 TARGET_KERNEL_SOURCE := kernel/samsung/gta4l
 
