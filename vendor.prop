@@ -122,6 +122,9 @@ ro.crypto.volume.metadata.method=dm-default-key
 # Filesystem
 fs_mgr.overlayfs.prefer_cache_backing_storage=true
 
+# FUSE passthrough
+persist.sys.fuse.passthrough.enable=true
+
 # Wifi
 wifi.aware.interface=wifi-aware0
 
