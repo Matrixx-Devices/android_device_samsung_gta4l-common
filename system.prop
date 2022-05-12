@@ -21,6 +21,7 @@ persist.vendor.dpm.feature=11
 
 # Disable Skia tracing by default
 debug.hwui.skia_tracing_enabled=false
+debug.hwui.skia_atrace_enabled=false
 
 # Disable kernel panic for better stability
 ro.kernel.android.checkjni=0
