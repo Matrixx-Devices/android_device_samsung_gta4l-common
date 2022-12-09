@@ -184,6 +184,7 @@ debug.stagefright.omx_default_rank=0
 # Display & graphics
 debug.hwui.use_hint_manager=true
 debug.hwui.target_cpu_time_percent=20
+debug.sf.enable_adpf_cpu_hint=true
 debug.egl.hw=0
 debug.mdpcomp.logs=0
 debug.sf.auto_latch_unsignaled=0
