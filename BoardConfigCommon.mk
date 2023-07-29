@@ -130,6 +130,7 @@ TARGET_KERNEL_SOURCE := kernel/samsung/gta4l
 TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_KERNEL_CLANG_VERSION := neutron
 TARGET_KERNEL_CLANG_PATH := $(shell pwd)/prebuilts/clang/host/linux-x86/clang-neutron
+TARGET_KERNEL_LLVM_BINUTILS := true
 KERNEL_SUPPORTS_LLVM_TOOLS := true
 KERNEL_FULL_LLVM := true
 KERNEL_CC := CC=clang
