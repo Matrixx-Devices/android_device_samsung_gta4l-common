@@ -52,6 +52,9 @@ on boot
     # Permissions for Touchscreen
     chown system system /sys/class/sec/tsp/cmd
 
+    # permission for CHARGING
+    chown system radio /sys/class/power_supply/battery/charging_enabled
+
 on post-fs-data
 
     # Hardware revision
