@@ -306,6 +306,7 @@ debug.performance.tuning=1
 video.accelerate.hw=1
 windowsmgr.max_events_per_sec=240
 ro.min_pointer_dur=8
+vendor.perf.framepacing.enable=1
 
 # Optimize rendering
 ro.hwui.texture_cache_size=72
