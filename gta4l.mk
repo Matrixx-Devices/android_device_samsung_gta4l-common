@@ -331,7 +331,8 @@ PRODUCT_PACKAGES += \
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
-    hardware/samsung
+    hardware/samsung \
+    hardware/qcom-caf/common/libqti-perfd-client
 
 # Thermal
 PRODUCT_PACKAGES += \
