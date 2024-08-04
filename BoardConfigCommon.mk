@@ -142,6 +142,9 @@ TARGET_GLOBAL_THINLTO := true
 # Keymaster
 TARGET_KEYMASTER_VARIANT := samsung
 
+# Kernel-Toolchain
+override KERNEL_TOOLCHAIN_PREFIX_arm := arm-linux-android-
+
 # Lineage Health
 TARGET_HEALTH_CHARGING_CONTROL_CHARGING_PATH := /sys/class/power_supply/battery/batt_slate_mode
 TARGET_HEALTH_CHARGING_CONTROL_CHARGING_ENABLED := 0
