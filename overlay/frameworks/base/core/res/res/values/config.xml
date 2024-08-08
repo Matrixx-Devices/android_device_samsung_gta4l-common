@@ -202,4 +202,10 @@ Note that doze dreams are not subject to the same start conditions as ordinary d
     <!-- If true, the screen can be rotated via the accelerometer in all 4
          rotations as the default behavior. -->
     <bool name="config_allowAllRotations">true</bool>
+
+    <!-- The amount to scale fullscreen snapshots for Overview and snapshot starting windows. -->
+    <item name="config_highResTaskSnapshotScale" format="float" type="dimen">0.8</item>
+
+    <!-- The max scale for the wallpaper when it's zoomed in -->
+    <item name="config_wallpaperMaxScale" format="float" type="dimen">1</item>
 </resources>
