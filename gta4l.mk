@@ -361,7 +361,7 @@ PRODUCT_PACKAGES += \
 
 # USB
 PRODUCT_PACKAGES += \
-    android.hardware.usb@1.3-service.dual_role_usb
+    android.hardware.usb-service.qti
 
 # VNDK
 PRODUCT_COPY_FILES += \
