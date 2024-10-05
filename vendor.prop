@@ -188,6 +188,7 @@ debug.sdm.support_writeback=0
 persist.demo.hdmirotationlock=false
 ro.config.avoid_gfx_accel=true
 ro.surface_flinger.protected_contents=true
+persist.sys.use_dithering=1
 persist.sys.sf.color_mode=9
 ro.hardware.egl=adreno
 ro.hardware.vulkan=adreno
@@ -300,6 +301,11 @@ persist.vendor.ims.disableQXDMLogs=1
 
 # Media
 debug.stagefright.c2inputsurface=-1
+media.stagefright.enable-meta=true
+media.stagefright.enable-scan=true
+media.stagefright.enable-http=true
+media.stagefright.enable-rtsp=true
+media.stagefright.enable-record=false
 
 # Miscellaneous tweaks
 # Enable hardware acceleration
@@ -327,3 +333,35 @@ ro.vendor.qti.cgroup_follow.enable=true
 persist.vendor.qti.inputopts.enable=true 
 persist.vendor.qti.inputopts.movetouchslop=0.6 
 ro.qcom.adreno.qgl.ShaderStorageImageExtendedFormats=0
+
+# Better Net
+net.tcp.buffersize.default=4096,87380,256960,4096,16384,256960
+net.tcp.buffersize.wifi=4096,87380,256960,4096,16384,256960
+net.tcp.buffersize.umts=4096,87380,256960,4096,16384,256960
+net.tcp.buffersize.gprs=4096,87380,256960,4096,16384,256960
+net.tcp.buffersize.edge=4096,87380,256960,4096,16384,256960
+
+# General Performance
+debug.sf.hw=1
+persist.sys.ui.hw=1
+
+# Faster boot
+persist.sys.shutdown.mode=hibernate
+ro.config.hw_quickpoweron=true
+
+# Video Acceleration Enabled And HW debugging
+debug.hwui.renderer=skiagl
+video.accelerate.hw=1
+debug.performance.tuning=1
+debug.egl.hw=1
+debug.composition.type=gpu
+debug.egl.profiler=1
+
+# Zygote preforking
+persist.device_config.runtime_native.usap_pool_enabled=true
+
+# Save Battery Without Performance Drop
+pm.sleep_mode=1
+ro.ril.disable.power.collapse=0
+wifi.supplicant_scan_interval=180
+ro.config.small_battery=true
