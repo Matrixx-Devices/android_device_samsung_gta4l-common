@@ -132,6 +132,7 @@ TARGET_KERNEL_CLANG_PATH := $(shell pwd)/prebuilts/clang/host/linux-x86/clang-ne
 KERNEL_SUPPORTS_LLVM_TOOLS := true
 KERNEL_FULL_LLVM := true
 KERNEL_CC := CC=clang
+override KERNEL_TOOLCHAIN_PREFIX_arm := arm-linux-android-
 
 # Global LTO
 TARGET_GLOBAL_LTO := thin
