@@ -177,6 +177,7 @@ vendor.usb.use_ffs_mtp=0
 # Display & graphics
 debug.hwui.use_hint_manager=true
 debug.hwui.target_cpu_time_percent=20
+debug.sf.enable_egl_image_tracker=0
 debug.sf.enable_adpf_cpu_hint=true
 debug.sf.auto_latch_unsignaled=0
 debug.sf.disable_client_composition_cache=1
