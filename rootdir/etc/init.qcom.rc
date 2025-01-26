@@ -98,6 +98,13 @@ on post-fs
     write /sys/class/thermal/thermal_zone0/trip_point_0_temp 95
     write /sys/class/thermal/thermal_zone0/trip_point_1_temp 100
 
+    # Start services for bootanim
+    start surfaceflinger
+    start bootanim
+    start vendor.hwcomposer-2-1
+    start vendor.configstore-hal
+    start vendor.qti.hardware.display.allocator
+
 on early-boot
     # set RLIMIT_MEMLOCK to 64KB
     setrlimit 8 65536 65536
