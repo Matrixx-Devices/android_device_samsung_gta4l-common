@@ -128,11 +128,6 @@ KERNEL_FULL_LLVM := true
 KERNEL_CC := CC=clang
 override KERNEL_TOOLCHAIN_PREFIX_arm := arm-linux-android-
 
-# Global LTO
-TARGET_GLOBAL_LTO := thin
-TARGET_GLOBAL_OPTIMIZATION := O3
-TARGET_GLOBAL_THINLTO := true
-
 # Keymaster
 TARGET_KEYMASTER_VARIANT := samsung
 
